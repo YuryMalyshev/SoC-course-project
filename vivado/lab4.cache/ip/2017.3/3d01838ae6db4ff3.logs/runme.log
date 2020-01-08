@@ -1,0 +1,81 @@
+
+*** Running vivado
+    with args -log lab4_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab4_xbar_0.tcl
+
+
+****** Vivado v2017.3 (64-bit)
+  **** SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+  **** IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source lab4_xbar_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:21 . Memory (MB): peak = 1330.969 ; gain = 85.004 ; free physical = 547 ; free virtual = 12004
+INFO: [Synth 8-638] synthesizing module 'lab4_xbar_0' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ip/lab4_xbar_0/synth/lab4_xbar_0.v:59]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_15_axi_crossbar' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a1b8/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_15_crossbar_sasd' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a1b8/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_15_addr_decoder' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a1b8/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (1#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (2#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' (2#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' (2#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' (2#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_15_addr_decoder' (3#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a1b8/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_15_decerr_slave' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a1b8/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_15_decerr_slave' (4#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a1b8/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_15_addr_arbiter_sasd' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a1b8/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_15_addr_arbiter_sasd' (5#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a1b8/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_15_splitter' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a1b8/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_15_splitter' (6#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a1b8/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_15_splitter__parameterized0' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a1b8/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_15_splitter__parameterized0' (6#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a1b8/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (7#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (7#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (7#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice' (8#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (8#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_15_crossbar_sasd' (9#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a1b8/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_15_axi_crossbar' (10#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ipshared/a1b8/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-256] done synthesizing module 'lab4_xbar_0' (11#1) [/home/yumaly/workspace/lab4/vivado/lab4.srcs/sources_1/bd/lab4/ip/lab4_xbar_0/synth/lab4_xbar_0.v:59]
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:36 . Memory (MB): peak = 1452.504 ; gain = 206.539 ; free physical = 448 ; free virtual = 11906
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:37 . Memory (MB): peak = 1452.504 ; gain = 206.539 ; free physical = 446 ; free virtual = 11903
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1723.793 ; gain = 1.000 ; free physical = 857 ; free virtual = 11838
+Finished Constraint Validation : Time (s): cpu = 00:00:32 ; elapsed = 00:01:12 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1747 ; free virtual = 12729
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:32 ; elapsed = 00:01:12 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1747 ; free virtual = 12729
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:01:12 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1748 ; free virtual = 12731
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:32 ; elapsed = 00:01:12 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1646 ; free virtual = 12629
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:01:13 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1628 ; free virtual = 12610
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:01:21 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1505 ; free virtual = 12487
+Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:01:22 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1497 ; free virtual = 12479
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:01:22 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1496 ; free virtual = 12479
+Finished IO Insertion : Time (s): cpu = 00:00:40 ; elapsed = 00:01:22 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1496 ; free virtual = 12478
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:40 ; elapsed = 00:01:22 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1496 ; free virtual = 12479
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:40 ; elapsed = 00:01:22 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1496 ; free virtual = 12478
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:40 ; elapsed = 00:01:22 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1496 ; free virtual = 12478
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:01:22 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1496 ; free virtual = 12478
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:01:22 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1496 ; free virtual = 12478
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |    16|
+|3     |LUT3 |    44|
+|4     |LUT4 |    48|
+|5     |LUT5 |    59|
+|6     |LUT6 |    64|
+|7     |FDRE |   133|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:01:22 . Memory (MB): peak = 1723.793 ; gain = 477.828 ; free physical = 1496 ; free virtual = 12478
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:01:23 . Memory (MB): peak = 1723.793 ; gain = 503.648 ; free physical = 1549 ; free virtual = 12531

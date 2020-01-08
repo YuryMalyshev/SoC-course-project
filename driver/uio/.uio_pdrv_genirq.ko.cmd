@@ -1,0 +1,1 @@
+cmd_/home/yumaly/workspace/project/driver/uio/uio_pdrv_genirq.ko := arm-linux-gnueabihf-ld -EL -r  -T /home/yumaly/workspace/xilinx_linux/scripts/module-common.lds --build-id  -o /home/yumaly/workspace/project/driver/uio/uio_pdrv_genirq.ko /home/yumaly/workspace/project/driver/uio/uio_pdrv_genirq.o /home/yumaly/workspace/project/driver/uio/uio_pdrv_genirq.mod.o ;  true

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# 
+# Start of session at: Wed Dec 18 14:31:24 2019
+# Process ID: 13527
+# Current directory: /home/yumaly/workspace/project/vivado/lab4.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/yumaly/workspace/project/vivado/lab4.sdk/webtalk/webtalk.log
+# Journal file: /home/yumaly/workspace/project/vivado/lab4.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

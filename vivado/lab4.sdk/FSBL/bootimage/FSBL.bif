@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/yumaly/workspace/lab4/vivado/lab4.sdk/FSBL/Debug/FSBL.elf
+	/home/yumaly/workspace/lab4/vivado/lab4.sdk/lab4_wrapper_hw_platform_0/lab4_wrapper.bit
+	/home/yumaly/workspace/lab4/sd-temp/u-boot.elf
+}

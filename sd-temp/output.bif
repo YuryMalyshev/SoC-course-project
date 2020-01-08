@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/yumaly/workspace/project/sd-temp/FSBL.elf
+	/home/yumaly/workspace/project/sd-temp/lab4_wrapper.bit
+	/home/yumaly/workspace/project/sd-temp/u-boot.elf
+}
